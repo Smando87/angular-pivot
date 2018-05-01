@@ -17,18 +17,18 @@
   },
   "homepage": "https://github.com/ErickRuano/angular-pivot#readme",
   "dependencies": {
-    "angular": "^1.5.8",
-    "jquery-ui-bundle": "^1.11.4",
-    "pivottable": "^2.3.0"
+    "angular": "^1.6.10",
+    "jquery-ui-bundle": "^1.12.1-migrate",
+    "pivottable": "^2.20.0"
   },
   "devDependencies": {
-    "mocha": "^3.1.2",
-    "chai": "^3.5.0",
+    "mocha": "^5.1.1",
+    "chai": "^4.1.2",
     "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.0",
-    "gulp-minify": "0.0.14",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "2.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-self-execute": "^1.0.3",
-    "run-sequence": "^1.2.2"
+    "run-sequence": "^2.2.1"
   }
 }

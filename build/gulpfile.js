@@ -18,7 +18,7 @@ gulp.task('wrap', function(){
         }))
         .pipe(gulp.dest('../dist'))
         .pipe(gp_minify({
-            mangle : false
+            mangle : true
         }))
         .pipe(gulp.dest('../dist'))
 });
@@ -32,4 +32,4 @@ gulp.task('build', function(){
     });
 })
 
-gulp.task('default', ['build'   ], function(){});
+gulp.task('default', ['build'], function(){});

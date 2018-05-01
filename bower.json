@@ -16,8 +16,8 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "^1.5.8",
+    "angular": "^1.6.10",
     "jquery-ui": "^1.12.1",
-    "pivottable": "^2.3.0"
+    "pivottable": "^2.20.0"
   }
 }
